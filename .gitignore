@@ -3,9 +3,15 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
+.project
+.DS_Store
+.classpath
+.factorypath
 
 # Other files and folders
 .settings/
+.idea/
+target/
 
 # Executables
 *.swf
@@ -16,3 +22,4 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+# git pull --rebase origin master
