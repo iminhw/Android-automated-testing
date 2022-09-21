@@ -16,7 +16,7 @@ public class WorkbenchPage extends BasePage {
         super(driver);
     }
 
-    public SchedulePage gitgoto_schedule() {
+    public SchedulePage goto_schedule() {
         swipeFind(schedule);
         clickElement(schedule);
         return new SchedulePage(driver);

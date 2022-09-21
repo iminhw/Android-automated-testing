@@ -22,10 +22,10 @@ import static org.hamcrest.Matchers.containsString;
 public class MinhwTset {
     private static MainPage main;
 
-//    @BeforeAll
-//    public static void beforeAll() throws MalformedURLException {
-//        main = new MainPage();
-//    }
+    @BeforeAll
+    public static void beforeAll() throws MalformedURLException {
+        main = new MainPage();
+    }
 
     /**
      * 参数配置

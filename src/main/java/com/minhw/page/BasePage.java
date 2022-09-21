@@ -130,7 +130,7 @@ public class BasePage {
      * @return
      */
     public WebElement findElement(By by) {
-        System.out.println(by);
+//        System.out.println(by);
         waitClickable(by);
         LoggerUtil.logger.info(by + " 元素状态为 : clickable");
         return driver.findElement(by);
